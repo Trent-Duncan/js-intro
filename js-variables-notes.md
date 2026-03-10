@@ -46,11 +46,13 @@ Before we touch the keyboard, I want to see your blueprint. Imagine you are buil
 
 1. Which piece of data about a player would stay the same forever (requiring a "safe"), and which might change as the player plays (requiring a "box")?
 
-*Answer here...*
+*What would stat the same: Player ID: A unique number that identifies the account forever.
+Join Date: The exact second the player first started the game. Birth Year: Personal data that physically cannot change. what would change:XP/Level: This grows as the player completes quests. Current Location: Changes every time the player moves their character. Health Points: Goes down during a fight and up when using a potion.*
 
 3. If you had to explain the `=` symbol to a non-coder using the analogy of a "bucket" and a "ball," how would you describe it?
 
-*Answer here...*
+*In coding, the = symbol isn't a balance scale; it’s an action. The Bucket (Left): This is your variable (the container). The Ball (Right): This is your data (the value). The Symbol (=): This is the act of dropping the ball into the bucket.
+If you use = again on the same bucket, you are simply throwing the old ball away and replacing it with a new one. The bucket only cares about the last ball you put inside.*
 
 ---
 
@@ -72,8 +74,11 @@ let playerLevel = 1;
 PROMPT: Now ask Gemini to give you three examples of JavaScript string variables that are declared (created) using the keyword `const`.  Tell Gemini to write the variable names in camel case.  Write the answer Gemini gives you below.
 
 ```javascript
-// Write the example code Gemini gives you inside this code block
+const playerUsername = "DragonSlayer99";
 
+const accountEmail = "hero@quest.com";
+
+const homeWorld = "CyberCity";
 
 ```
 
@@ -83,7 +88,7 @@ To start your **Final Task**, how would you write a **single-line comment** at t
 Add your answer to the JavaScript code block below.
 
 ```javascript
-// Write your answer below this JavaScript comment
+// Lead Developer: [Trent Duncan]
 
 
 ```
